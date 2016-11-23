@@ -17,4 +17,4 @@
 
 FROM webcenter/activemq
 
-ADD "docker/broker/activemq.xml" "/opt/activemq/conf/activemq.xml"
+ADD "activemq.xml" "/opt/activemq/conf/activemq.xml"
